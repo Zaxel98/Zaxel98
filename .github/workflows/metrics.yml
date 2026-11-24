@@ -23,3 +23,20 @@ jobs:
           plugin_achievements: yes
           plugin_achievements_display: compact
           plugin_achievements_threshold: B
+
+          plugin_topics: yes
+          plugin_topics_mode: icons
+          plugin_topics_limit: 0
+
+          plugin_anilist: yes
+          plugin_anilist_user: USERNAME_ANILIST
+          plugin_anilist_medias: anime
+          plugin_anilist_sections: favorites, watching, characters
+          plugin_anilist_limit: 4
+          plugin_anilist_limit_characters: 22
+
+          plugin_steam: yes
+          plugin_steam_token: ${{ secrets.STEAM_TOKEN }}
+          plugin_steam_user: STEAM_ID_KAMU
+          plugin_steam_sections: player, recently-played
+          plugin_steam_games_limit: 3
